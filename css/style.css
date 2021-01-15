@@ -1,11 +1,18 @@
 .icon{
     width: 300px;
-   
-}
+ }
+ .custom-hr{
+     
+   border: none;
+   height: 20px;
+   background: #9c4783;
+ }
 img{
     width: 100%;
 }
-
+p{
+    color: #b98484
+}
 span{
     color: #FA804C;
 }
@@ -13,16 +20,53 @@ header{
     background-color: #FFF9F4;
    
 }
-li{
-    list
+h1,h2,h3,h4,h5{
+    color: purple;
 }
 
+.stay-with-us {
+    text-align: center;
+    background:#ffeedf; height: 250px; 
+}
+
+
+.custom-input{
+border: none;
+border-bottom: 1px solid purple;
+width: 100%%;
+background: rgb(229 234 247 / 27%);
+margin-bottom: 10px;
+}
+.form-submit{
+    color: white;
+    border:1px solid  purple ;
+    padding: 5px 20px;
+    background-image: linear-gradient( 50deg, #FA804C, #9c4783);
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) { .slid-content{
+    padding: 35px;
+      } 
+  }
+@media (max-width: 576px) { .slid-content{
+  padding: 35px;
+    } 
+}
 
 @media (max-width: 992px) { .services-left{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
     } 
+}
+@media (max-width: 768px) { .services-left{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    text-align: center;
+} 
 }
 @media (max-width: 992px) { .card-title{
     font-size: 16px;
@@ -35,12 +79,7 @@ li{
     } 
 }
 
-@media (max-width: 768px) { .services-left{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
-} 
-}
+
 @media (max-width: 768px) { .card-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,16 +96,37 @@ li{
 
    @media (max-width: 768px) {.card-footer{
     
-    vertical-align: middle;
-   } 
-   }
-   @media (max-width: 768px) {.button-size{
-    
+    font-size: 12px;
     padding: 5px;
+   font-weight: 600;
    } 
    }
+  
    
+   @media (max-width: 992px) {.form-submit{
+    
+    font-size: 14px;
+    padding: 5px 10px;
+   font-weight: 600;
+   } 
+   }
 
+  
+
+ @media (max-width: 768px) {.form-submit{
+    
+    font-size: 14px;
+    padding: 5px 10px;
+   font-weight: 600;
+    } 
+    }
+
+    @media (max-width: 576px) {.form-submit{
+        font-size: 12px;
+        padding: 5px;
+       font-weight: 400;
+       }
+     }
 
 
    @media (max-width: 992px) { h3 {
@@ -82,10 +142,10 @@ li{
     vertical-align: middle;
    } 
    }
-   @media (max-width: 992px) {.button-size{
-    
-    padding: 10px;
-   } 
-   }
+  
+   @media (max-width: 576px) {.stay-h1{
+    font-size: 20px;
 
+   }
+ }
 
